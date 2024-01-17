@@ -20,6 +20,6 @@
     },
     "plugins": [{ "name": "next" }]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/ColorSchemeToggle/ColorSchemeToggle.jsx", "components/Welcome/Welcome.jsx", "app/page.jsx", "app/layout.jsx", "app/Dashboard/page.jsx", "app/Dashboard/layout.jsx", "components/Header/HeaderMegaMenu.jsx", "*", "app/blog/layout.js", "app/blog/page.tsx"],
   "exclude": ["node_modules"]
 }
